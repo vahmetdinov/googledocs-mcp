@@ -9,6 +9,7 @@ import { register as deleteRange } from './deleteRange.js';
 
 // Structure
 import { register as insertTable } from './insertTable.js';
+import { register as insertTableWithData } from './insertTableWithData.js';
 import { register as insertPageBreak } from './insertPageBreak.js';
 import { register as insertImage } from './insertImage.js';
 
@@ -26,6 +27,7 @@ export function registerDocsTools(server: FastMCP) {
 
   // Structure
   insertTable(server);
+  insertTableWithData(server);
   insertPageBreak(server);
   insertImage(server);
 
