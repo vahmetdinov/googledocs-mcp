@@ -38,7 +38,7 @@ This opens your browser for Google authorization. After you approve, the refresh
   "mcpServers": {
     "google-docs": {
       "command": "npx",
-      "args": ["-y", "@a-bonus/google-docs-mcp"],
+      "args": ["-y", "@vahmetdinov/googledocs-mcp"],
       "env": {
         "GOOGLE_CLIENT_ID": "your-client-id",
         "GOOGLE_CLIENT_SECRET": "your-client-secret"
